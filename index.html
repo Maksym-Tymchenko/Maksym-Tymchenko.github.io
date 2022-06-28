@@ -17,7 +17,7 @@
 			<header id="header">
 				<div class="inner">
 					<a href="#" class="image avatar"><img src="images/colored_photo.jpeg" alt="" /></a>
-					<h1><strong>I am Maksym</strong>, an AI Master's student with a few years of professional experience.<br />
+					<h1><strong>I am Maksym</strong>, an AI Master's student with two years of professional experience.<br />
 					</h1>
 				</div>
 			</header>
@@ -117,7 +117,9 @@
 										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
 										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
 									</div>
+									<button name="submit" type="submit" class="btn btn-primary">Send</button>
 								</form>
+								
 								<ul class="actions">
 									<li><input type="submit" value="Send Message" /></li>
 								</ul>
@@ -177,6 +179,22 @@
 							  </div>
 							</div>
 						  </form>
+
+						<form
+						  action="https://formspree.io/f/mzboqywr"
+						  method="POST"
+						>
+						  <label>
+							Your email:
+							<input type="email" name="email">
+						  </label>
+						  <label>
+							Your message:
+							<textarea name="message"></textarea>
+						  </label>
+						  <!-- your other form fields go here -->
+						  <button type="submit">Send</button>
+						</form>						  
 
 					</section>
 
